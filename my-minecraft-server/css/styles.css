@@ -1,0 +1,80 @@
+body {
+    background-color: #2c3e50; /* 深绿色背景 */
+    color: #ecf0f1; /* 浅灰色文字 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #34495e; /* 更深的绿色背景 */
+    color: #ffffff; /* 白色文字 */
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #34495e; /* 更深的绿色背景 */
+    color: #ffffff; /* 白色文字 */
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* 白色文字 */
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; /* 鼠标悬停时下划线 */
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    background-color: #bdc3c7; /* 浅绿色背景 */
+    border-radius: 8px; /* 圆角边框 */
+    margin: 1em 0;
+    padding: 1em;
+}
+
+h2 {
+    color: #34495e; /* 深绿色文字 */
+}
+
+footer {
+    background-color: #34495e; /* 更深的绿色背景 */
+    color: #ffffff; /* 白色文字 */
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ffffff; /* 白色文字 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+footer a:hover {
+    text-decoration: underline; /* 鼠标悬停时下划线 */
+}
+/* 基础样式保持不变 */
+
+/* 为所有图片设置最大宽度和高度 */
+img {
+    max-width: 100%; /* 图片最大宽度为容器的100% */
+    max-height: 300px; /* 图片最大高度为容器的100% */
+    height: auto; /* 保持图片的宽高比 */
+}
+
+/* 其他样式保持不变 */
